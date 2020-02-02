@@ -1,8 +1,8 @@
 {
   "name": "proxy",
   "version": 2,
-  "regions": ["hnd1"],
   "routes": [
     {"src": "/(.*)","dest": "http://cdn-dls.65v.net/$1"}
-  ]
+  ],
+  "regions": ["hnd1"]
  }
