@@ -4,5 +4,5 @@
   "routes": [
     {"src": "/(.*)","dest": "http://cdn-dls.65v.net/$1"}
   ],
-  "regions": ["icn1","hkg1"]
+  "regions": ["hnd1","sfo1"]
  }
