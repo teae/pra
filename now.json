@@ -1,4 +1,7 @@
 {
+    "regions": ["hnd1", "sfo1"]
+}
+{
   "name": "proxy",
   "version": 2,
   "routes": [
