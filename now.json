@@ -1,10 +1,10 @@
 {
-    "regions": ["hnd1", "sfo1"]
-}
-{
   "name": "proxy",
   "version": 2,
   "routes": [
     {"src": "/(.*)","dest": "http://cdn-dls.65v.net/$1"}
   ]
  }
+{
+"regions": ["hnd1"]
+}
