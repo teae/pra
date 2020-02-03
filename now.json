@@ -2,7 +2,14 @@
   "name": "proxy",
   "version": 2,
   "routes": [
-    {"src": "/(.*)","dest": "http://cdn-dls.65v.net/$1"}
+    {
+      "headers": { "Cache-Control": "max-age=3600" },
+      "continue": true
+    },
+    {
+      "src": "/(.*)",
+      "dest": "http://cdn-dls.65v.net/$1"
+    }
   ],
   "regions": ["sfo1","hnd1"]
  }
