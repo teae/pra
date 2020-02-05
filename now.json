@@ -1,6 +1,6 @@
 {
   "name": "proxy",
-  "regions": ["sfo1","hnd1"],
+  "regions": ["hnd1","sfo1"],
   "version": 2,
   "routes": [
     {
